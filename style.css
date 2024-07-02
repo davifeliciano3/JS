@@ -1,0 +1,31 @@
+body{
+    box-sizing: border-box;
+}
+
+.tamanho{
+    padding-top: 10%;
+}
+.carrossel {
+    width: 1920px;
+    height: 400px;
+    overflow: hidden;
+    position: relative;
+
+}
+
+.container {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    transform: translateX(0);
+
+    
+}
+img {
+    
+    width: 1920px;
+    height: 400px;
+    object-fit:contain;
+    
+}
+
+
